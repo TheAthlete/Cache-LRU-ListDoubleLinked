@@ -1,7 +1,7 @@
 # Алгоритм замещения страниц (кэш, eviction algorithm) LRU
 
-Данный алгоритм основан на модуле (Cache::LRU)[https://metacpan.org/pod/release/KAZUHO/Cache-LRU-0.04/lib/Cache/LRU.pm], 
-но реализован с помощью модуля (List::DoubleLinked)[https://metacpan.org/pod/List::DoubleLinked] вместо массивов. 
+Данный алгоритм основан на модуле [Cache::LRU](https://metacpan.org/pod/release/KAZUHO/Cache-LRU-0.04/lib/Cache/LRU.pm), 
+но реализован с помощью модуля [List::DoubleLinked](https://metacpan.org/pod/List::DoubleLinked) вместо массивов. 
 
 В рамках данной задачи был доработан класс List::DoubleLinked, а именно 
 
