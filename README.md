@@ -26,3 +26,15 @@ TODO:
 
 - [ ] Реализовать быстрый алгоритм на C и C++ с использованием XS и Panda::XS
 
+Проверка эффективности алгоритма:
+```
+git clone https://github.com/TheAthlete/Cache-LRU-ListDoubleLinked.git
+zcat etc/ids.gz | perl bin/lru_example.pl
+```
+при задании максимального размера (size) равного 2000, получаются следующее:
+```
+worked out 1000000 keys
+        hit rate:       64.762 %
+        memory:         3.434 Mb
+        time:           18.129 s
+```
